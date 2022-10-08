@@ -3,7 +3,7 @@
         <v-app-bar float>
             <v-app-bar-nav-icon color="pink" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
             <v-app-bar-title class="text-uppercase text-grey">
-                <span class="font-weight-light ">Todo</span>
+                <span class="font-weight-light ">TodoList</span>
                 <span>Wee</span>
             </v-app-bar-title>
 
