@@ -13,7 +13,8 @@
             </v-btn>
         </v-app-bar>
 
-        <v-navigation-drawer class="bg-pink-lighten-3 text-white" v-model="drawer" absolute temporary permanent>
+            <!-- -->
+        <v-navigation-drawer class="bg-pink-lighten-3 text-white" v-model="drawer"  temporary >
             <v-list>
                 <v-list-item class="px-2 justify-center">
                    
@@ -72,7 +73,7 @@ import TheNewProject from './TheNewProject.vue';
 export default {
     data: () => (
         {
-            drawer: true,
+            drawer: false,
             links: [
                 { title: 'dashboard', icon: 'mdi-view-dashboard-outline', route: '/' },
                 { title: 'Projects', icon: 'mdi-folder', route: '/projects' },
