@@ -17,11 +17,11 @@
                         <v-container>
                             <v-row>
                                 <v-col cols="12">
-                                    <v-text-field variant="underlined" append-inner-icon="mdi-folder" label="Title">
+                                    <v-text-field  clearable variant="underlined" prepend-icon="mdi-folder" label="Title">
                                     </v-text-field>
                                 </v-col>
                                 <v-col cols="12">
-                                    <v-textarea variant="underlined" append-inner-icon="mdi-pencil" label="Information">
+                                    <v-textarea  variant="outlined"  prepend-icon="mdi-pencil" label="information">
                                     </v-textarea>
 
                                 </v-col>

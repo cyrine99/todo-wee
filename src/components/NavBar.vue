@@ -78,6 +78,7 @@ export default {
                 { title: 'dashboard', icon: 'mdi-view-dashboard-outline', route: '/' },
                 { title: 'Projects', icon: 'mdi-folder', route: '/projects' },
                 { title: 'Team', icon: 'mdi-account-group-outline', route: '/team' },
+                { title: 'Settings', icon: 'mdi-settings-outline', route: '/team' },
             ],
         }
 
